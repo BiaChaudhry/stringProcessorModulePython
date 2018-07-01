@@ -1,2 +1,2 @@
-# stringProcessorModulePython
-This is only the module that gives functionality in the respective code 
+# stringProcessorPython
+This is the module + code using it..
