@@ -1,10 +1,10 @@
-import BCStringProcessor           
+import myStringProcessor           
 
 def main():
 
-	option = input("Do you want to use the functionality of BCStringProcessor.py (Yes or No? ")
+	option = input("Do you want to use the functionality of myStringProcessor.py (Yes or No? ")
 
-	BCStringProcessor.welcomeScreen(option)                                             # Using function of Module
+	myStringProcessor.welcomeScreen(option)                                             # Using function of Module
 
 	print("Here you have following functions:\n")
 
@@ -18,7 +18,7 @@ def main():
 
 		string    = input("Write any string to find its index at first occurance in paragraph\t")
 
-		print(BCStringProcessor.findstrIndex(paragraph,string))                               # Using function of Module
+		print(myStringProcessor.findstrIndex(paragraph,string))                               # Using function of Module
 
 
 	option2 = input("Do you want to count string in paragraph:(Y or N) ? ")
@@ -29,7 +29,7 @@ def main():
 
 		string    = input("Write any string to be count in paragraph\t")
 
-		print(BCStringProcessor.countStrInPara(paragraph,string))                               # Using function of Module
+		print(myStringProcessor.countStrInPara(paragraph,string))                               # Using function of Module
 
 
 
@@ -39,7 +39,7 @@ def main():
 
 		paragraph = input("Write any paragraph of your choice:\t")
 
-		print(BCStringProcessor.checkAlpha(paragraph))                                             # Using function of Module
+		print(myStringProcessor.checkAlpha(paragraph))                                             # Using function of Module
 
 
 
@@ -51,7 +51,7 @@ def main():
 
 		string    = input("Write any letter you want to remove from the paragraph\t")
 
-		print(BCStringProcessor.removing(paragraph,string))                                           # Using function of Module
+		print(myStringProcessor.removing(paragraph,string))                                           # Using function of Module
 
 
 
@@ -65,9 +65,9 @@ def main():
 
 		num      = (input("Enter the number to find in the sequence\t"))
 
-		print(BCStringProcessor.searchingNumInSeq(num,sequence))                                        # Using function of Module
+		print(myStringProcessor.searchingNumInSeq(num,sequence))                                        # Using function of Module
 
-	print(BCStringProcessor.ending())
+	print(myStringProcessor.ending())
 
 
 
